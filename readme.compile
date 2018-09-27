@@ -1,0 +1,20 @@
+
+
+# 编译不过 提示 'aclocal.m4' failed
+
+https://github.com/google/autofdo/issues/38
+
+FYI, I simply changed
+
+am__api_version='1.14'
+to
+
+am__api_version='1.15'
+
+
+
+#  提示错误，在glob目录下运行
+
+
+automake --add-missing
+
